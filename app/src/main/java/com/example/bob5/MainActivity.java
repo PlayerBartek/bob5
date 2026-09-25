@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     private void showResult(String errorMessage) {
         if (errorMessage == null) {
             textStatus.setTextColor(0xFF2E7D32);
-            textStatus.setText("Dane są poprawne");
+            textStatus.setText("Zarejestrowano");
         } else {
             textStatus.setTextColor(0xFFD32F2F);
             textStatus.setText(errorMessage);
